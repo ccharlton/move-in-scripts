@@ -23,6 +23,8 @@ gem 'susy'
 gem 'animate' # gem install animate --pre
 gem 'sassy-buttons'
 gem 'compass-bootstrap'
+gem 'compass_twitter_bootstrap'
+gem 'compass-twitter-bootstrap-plugin'
 
 # Icons and Graphics
 gem 'fancy-buttons'
