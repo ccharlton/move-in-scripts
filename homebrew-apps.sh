@@ -2,5 +2,11 @@
 
 # Install software via homebrew
 cask install \
+atom \
+bettertouchtool \
 chrome \
-firefox
+firefox \
+#sequelpro \
+slack \
+tableplus \
+virtuabox
