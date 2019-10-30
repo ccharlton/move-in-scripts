@@ -20,24 +20,24 @@
 - [ ] Developer list v1.0
 - [ ] Basic setup v1.1
 - [ ] Apps list v1.1
+- [ ] Script some of the optional stuff for fun
 
 -----
 
 ## Get Started
 
-#### Basic setup
-Run the following script(s) first:
+### Pre-setup
+Edit the following files to include/exclude software.
+ - `homebrew-formulas.sh`
+ - `homebrew-apps.sh` 
+
+### Start
+Run the following script first:
 ```
-./work.sh
-```
-#### Homebrew + Software/Apps
-1. Edit `homebrew-formulas.sh` and `homebrew-apps.sh` to include/exclude desired apps.
-2. Run the [Homebrew](https://brew.sh) setup script, and let the list of software do its thing.
-```
-./homebrew.sh
+./start.sh
 ```
 
-### Optional setup
+### Additional setup
 Copy the following files for each desired setup.
 
 ##### nano
