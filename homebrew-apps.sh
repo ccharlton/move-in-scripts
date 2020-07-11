@@ -13,8 +13,8 @@ firefox \
 handbrake \
 imageoptim \
 postman \
-#sequelpro \
+sequelpro \
 slack \
 sourcetree \
-tableplus \
+#tableplus \
 virtualbox
