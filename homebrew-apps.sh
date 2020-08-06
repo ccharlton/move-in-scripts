@@ -12,6 +12,7 @@ chrome \
 firefox \
 handbrake \
 imageoptim \
+iterm2 \
 postman \
 sequelpro \
 slack \
