@@ -7,7 +7,7 @@ atom \
 bartender \
 bettersnaptool \
 bettertouchtool \
-caffeine\
+caffeine \
 chrome \
 firefox \
 handbrake \
