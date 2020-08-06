@@ -27,4 +27,5 @@ echo "Installing misc. stuff"
 brew install \
 libdvdcss \
 graphviz \
-youtube-dl
+ffmpeg \
+youtube-dl 
