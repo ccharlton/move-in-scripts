@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install software via homebrew
-cask install \
+brew cask install \
 alfred \
 atom \
 bartender \
