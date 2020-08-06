@@ -17,4 +17,5 @@ sequelpro \
 slack \
 sourcetree \
 #tableplus \
+transmit \
 virtualbox
