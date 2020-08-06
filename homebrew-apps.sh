@@ -5,7 +5,7 @@ brew cask install \
 alfred \
 atom \
 bartender \
-bettersnaptool \
+#bettersnaptool \
 bettertouchtool \
 caffeine \
 chrome \
