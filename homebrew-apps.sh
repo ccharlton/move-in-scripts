@@ -14,7 +14,7 @@ handbrake \
 imageoptim \
 iterm2 \
 postman \
-sequelpro \
+sequel-pro \
 slack \
 sourcetree \
 #tableplus \
