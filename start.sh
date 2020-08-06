@@ -7,9 +7,9 @@ start_here() {
 
 # Setup 'Work' folder
 setup_work_home_folder() {
-  source "work"
-  source "homebrew"
-  source "shell"
+  source "work.sh"
+  source "homebrew.sh"
+  source "shell.sh"
 }
 
 start_here
