@@ -4,6 +4,7 @@
 - Environment/Workflow/Tools setup scripts
 
 > Note: Mac workstations usually need Xcode Tools pre-installed for other software to do their thing.
+> 
 > Run `xcodebuild -license accept && xcode-select --install`.
 
 | Platform | Support |
