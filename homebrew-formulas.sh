@@ -16,7 +16,6 @@ echo "Installing web development software"
 brew install \
 composer \
 node \
-phantomjs \
 siege
 # Old
 #gem install wraith
@@ -26,6 +25,9 @@ composer global require hirak/prestissimo
 
 # VRT
 npm install -g backstopjs
+
+# Testing suites
+brew cask install phantomjs
 
 # Additional web dev software(s)
 brew install casperjs --devel
