@@ -20,8 +20,6 @@ wraith
 # Additional web dev software(s)
 brew install qcachegrind --with-graphviz
 
-
-
 # Misc. utilities
 echo "Installing misc. stuff"
 brew install \
