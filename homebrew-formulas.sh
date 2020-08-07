@@ -27,7 +27,7 @@ composer global require hirak/prestissimo
 npm install -g backstopjs
 
 # Testing suites
-brew cask install phantomjs
+#brew cask install phantomjs
 
 # Additional web dev software(s)
 brew install casperjs --devel
