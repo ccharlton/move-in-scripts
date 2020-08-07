@@ -41,3 +41,7 @@ graphviz \
 imagemagick \
 libdvdcss \
 youtube-dl 
+
+# Post install configurations
+echo 'export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"' >> ~/.bashrc
+echo 'export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"' >> ~/.zshrc
