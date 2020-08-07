@@ -14,11 +14,15 @@ zlib
 # Web development
 echo "Installing web development software"
 brew install \
+composer \
 node \
 phantomjs \
 siege
 # Old
 #gem install wraith
+
+# Composer
+composer global require hirak/prestissimo
 
 # VRT
 npm install -g backstopjs
