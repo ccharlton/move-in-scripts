@@ -58,3 +58,30 @@ Ruby addons (many have moved elsewhere in the stack)
 ```
 ./ruby.sh
 ```
+
+## SSH setup
+Steps largely [taken from Github](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+1. Edit and run the following to generate the key.
+```
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+```
+
+2. Copy the contents of the id_rsa.pub file to your clipboard for pasting into Github and Hosting providers:
+```
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+3. Paste the following into `~/.ssh/config` (`vi ~/.ssh/config`). Edit the `IdentityFile` if you didn't use the default `~/.ssh/id_rsa` path.
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+```
+
+4. Run the following to add the key to the OS keychain agent:
+```
+ssh-add -K ~/.ssh/id_rsa
+```
