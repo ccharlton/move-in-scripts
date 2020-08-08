@@ -5,7 +5,8 @@
 
 > Note: Mac workstations usually need Xcode Tools pre-installed for other software to do their thing.
 > 
-> Run `xcodebuild -license accept && xcode-select --install`.
+> Run `xcode-select --install`.
+> If Xcode is installed, you can run `xcodebuild -license accept`.
 
 | Platform | Support |
 | ----------- | ----------- |
