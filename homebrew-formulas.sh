@@ -12,6 +12,10 @@ tree \
 wget \
 zlib
 
+# Install fonts
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+
 # Web development
 echo "Installing web development software"
 brew install \
