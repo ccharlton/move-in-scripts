@@ -14,6 +14,10 @@ tree \
 wget \
 zlib
 
+# YTOP
+brew tap cjbassi/ytop
+brew install ytop
+
 # Install fonts
 brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
