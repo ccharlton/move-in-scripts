@@ -20,7 +20,7 @@ setup_shell_choice() {
       echo 'export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters' >> ~/.zshenv
       echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 
-      # Install color highlighting
+      # Install groups of command overrides
       cat << EOF >> ~/.zshrc
       # Color highlighting
       alias ls='ls --color=auto'
@@ -41,6 +41,9 @@ setup_shell_choice() {
       # Color common commands
       command -v lsd > /dev/null && alias ls='lsd --group-dirs first'
       command -v lsd > /dev/null && alias tree='lsd --tree'
+      
+      # Additional aliases
+      command -v htop > /dev/null && alias top='htop'
       EOF
 
       # Make it your default shell
