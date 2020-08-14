@@ -7,6 +7,7 @@ brew update
 echo "Installing common software"
 brew install \
 curl \
+htop \
 lsd \
 openssl \
 tree \
