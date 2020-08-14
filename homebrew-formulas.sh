@@ -8,8 +8,9 @@ echo "Installing common software"
 brew install \
 curl \
 htop \
+git \
 lsd \
-python \
+python3 \
 openssl \
 tree \
 wget \
