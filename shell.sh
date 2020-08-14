@@ -40,6 +40,7 @@ setup_shell_choice() {
 
       # Color common commands
       command -v lsd > /dev/null && alias ls='lsd --group-dirs first'
+      command -v lsd > /dev/null && alias tree='lsd --tree'
       EOF
 
       # Make it your default shell
