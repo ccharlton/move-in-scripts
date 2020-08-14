@@ -8,6 +8,7 @@ echo "Installing common software"
 brew install \
 curl \
 openssl \
+tree \
 wget \
 zlib
 
