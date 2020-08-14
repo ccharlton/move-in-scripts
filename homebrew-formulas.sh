@@ -9,6 +9,7 @@ brew install \
 curl \
 htop \
 lsd \
+python \
 openssl \
 tree \
 wget \
