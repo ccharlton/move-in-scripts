@@ -1,6 +1,7 @@
 #!/bin/bash
 
 setup_shell_choice() {
+  # ~/.zshrc, etc.
   if [ ! -d "$HOME/.zsh" ]
   then
       echo "Setting up 'Oh My Zsh' shell preference"
@@ -51,6 +52,27 @@ setup_shell_choice() {
   else
       echo "You're already using Zsh shell."
       ${SHELL} --version
+  fi
+  
+  # .gitconfig
+  if [ ! -f "$HOME/.gitconfig" ]
+  then
+      touch ~/.gitconfig
+  fi
+
+  if [ -f "$HOME/.gitconfig" ]
+  then
+      cat << EOF >> ~/.gitconfig
+      [color] # colorize output
+          diff = auto
+          status = auto
+          branch = auto
+          interactive = auto
+          ui = true
+          pager = true
+      [credential] # cache credentials
+          helper = cache --timeout=3600
+      EOF
   fi
 }
 
