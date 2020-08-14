@@ -24,6 +24,10 @@ brew cask install font-hack-nerd-font
 brew tap cjbassi/ytop
 brew install ytop
 
+# BashTop
+python3 -m pip install psutil
+brew install osx-cpu-temp
+
 # Web development
 echo "Installing web development software"
 brew install \
