@@ -9,6 +9,7 @@ bartender \
 bettertouchtool \
 caffeine \
 chrome \
+# docker \
 firefox \
 handbrake \
 imageoptim \
