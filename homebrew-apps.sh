@@ -61,6 +61,7 @@ webpquicklook \
 wireshark
 
 # Gaming & Recreational
+brew tap homebrew/cask-drivers
 brew cask install \
 battle-net \
 epic-games \
