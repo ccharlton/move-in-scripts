@@ -14,7 +14,7 @@ bettertouchtool \
 blender \
 caffeine \
 camera-live \
-camtwist \
+# camtwist \
 cocktail \
 cyberduck \
 daisydisk \
