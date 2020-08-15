@@ -49,6 +49,7 @@ npm install -g backstopjs
 # Additional web dev software(s)
 brew install casperjs --devel
 brew install qcachegrind --with-graphviz
+brew cask install lando
 
 # Misc. utilities
 echo "Installing misc. stuff"
