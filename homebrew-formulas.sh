@@ -57,6 +57,7 @@ brew install \
 ffmpeg \
 graphviz \
 imagemagick \
+imageoptim-cli \
 libdvdcss \
 youtube-dl 
 
