@@ -72,5 +72,7 @@ steam
 # Hardware softwares
 brew cask install \
 arduino \
+caldigit-docking-utility \
+caldigit-thunderbolt-charging \
 elgato-stream-deck \
 raspberry-pi-imager
