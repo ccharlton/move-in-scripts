@@ -25,6 +25,7 @@ gas-mask \
 gimp \
 # gitkraken \
 grammarly \
+grandperspective \
 # google-chrome \
 handbrake \
 imageoptim \
