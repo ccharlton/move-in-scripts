@@ -75,4 +75,5 @@ arduino \
 caldigit-docking-utility \
 caldigit-thunderbolt-charging \
 elgato-stream-deck \
+monitorcontrol \
 raspberry-pi-imager
