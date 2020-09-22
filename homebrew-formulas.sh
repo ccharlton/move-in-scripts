@@ -9,7 +9,6 @@ brew install \
 curl \
 htop \
 git \
-gtm \
 lsd \
 python3 \
 openssl \
@@ -28,6 +27,10 @@ brew install ytop
 # BashTop
 python3 -m pip install psutil
 brew install osx-cpu-temp
+
+# Git GTM
+brew tap git-time-metric/gtm
+brew install gtm
 
 # Web development
 echo "Installing web development software"
