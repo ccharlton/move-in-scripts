@@ -9,6 +9,7 @@ brew install \
 curl \
 htop \
 git \
+gtm \
 lsd \
 python3 \
 openssl \
