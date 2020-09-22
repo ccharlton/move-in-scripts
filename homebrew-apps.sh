@@ -21,6 +21,7 @@ daisydisk \
 divvy \
 # docker \
 firefox \
+flux \
 gas-mask \
 gimp \
 # gitkraken \
@@ -37,6 +38,7 @@ kindle \
 # lens \
 meld \
 # metasploit \
+# microsoft-office \
 mysqlworkbench \
 obs \
 phpstorm \
@@ -56,6 +58,7 @@ spotify \
 transmit \
 virtualbox \
 virtualbox-extension-pack \
+visual-studio-code \
 vlc \
 webpquicklook \
 # wifi-explorer \
