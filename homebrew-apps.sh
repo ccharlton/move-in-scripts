@@ -62,7 +62,8 @@ visual-studio-code \
 vlc \
 webpquicklook \
 # wifi-explorer \
-wireshark
+wireshark \
+wwdc
 
 # Gaming & Recreational
 brew tap homebrew/cask-drivers
