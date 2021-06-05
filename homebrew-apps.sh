@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install software via homebrew
-brew cask install \
+brew install \
 adobe-creative-cloud \
 aerial \
 alfred \
@@ -66,14 +66,14 @@ wireshark
 
 # Gaming & Recreational
 brew tap homebrew/cask-drivers
-brew cask install \
+brew install \
 battle-net \
 epic-games \
 sony-ps4-remote-play \
 steam
 
 # Hardware softwares
-brew cask install \
+brew install \
 arduino \
 caldigit-docking-utility \
 caldigit-thunderbolt-charging \
