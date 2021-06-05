@@ -18,7 +18,7 @@ zlib
 
 # Install fonts
 brew tap homebrew/cask-fonts
-brew cask install font-hack-nerd-font
+brew install font-hack-nerd-font
 
 # YTOP
 brew tap cjbassi/ytop
@@ -48,12 +48,12 @@ composer global require hirak/prestissimo
 npm install -g backstopjs
 
 # Testing suites
-#brew cask install phantomjs
+#brew install phantomjs
 
 # Additional web dev software(s)
 brew install casperjs --devel
 brew install qcachegrind --with-graphviz
-brew cask install lando
+brew install lando
 
 # Misc. utilities
 echo "Installing misc. stuff"
