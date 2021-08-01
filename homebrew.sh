@@ -7,7 +7,7 @@ if [[ $? != 0 ]] ; then
 else
     brew update
     brew upgrade
-    brew cask upgrade
+#    brew cask upgrade
 fi
 
 # Install software via homebrew
