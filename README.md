@@ -20,10 +20,11 @@
 
 - [x] Basic setup v1.0
 - [x] Apps list v1.0
-- [ ] Developer list v1.0
-- [ ] Basic setup v1.1
-- [ ] Apps list v1.1
-- [ ] Script some of the optional stuff for fun
+- [x] Developer list v1.0
+- [x] Basic setup v1.1
+- [x] Apps list v1.1
+- [x] Script some of the optional stuff for fun
+- [ ] Ponder our expanding universe
 
 -----
 
