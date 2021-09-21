@@ -9,6 +9,7 @@ brew install \
 curl \
 htop \
 git \
+git-extras \
 lazygit \
 lsd \
 python3 \
