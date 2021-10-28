@@ -56,6 +56,9 @@ npm install -g backstopjs
 brew install casperjs --devel
 brew install qcachegrind --with-graphviz
 brew install lando
+# Add the Lando CA -- https://blog.lando.dev/2020/03/20/_5-things-to-do-after-you-install-lando/#macos
+sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/.lando/certs/lndo.site.pem
+
 
 # Misc. utilities
 echo "Installing misc. stuff"
