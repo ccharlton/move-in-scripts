@@ -54,6 +54,7 @@ slack \
 soulver \
 sourcetree \
 spotify \
+swiftbar \
 #tableplus \
 transmit \
 virtualbox \
