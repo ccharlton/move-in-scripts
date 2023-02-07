@@ -10,6 +10,7 @@ curl \
 htop \
 git \
 git-extras \
+git-flow \
 lazygit \
 lsd \
 python3 \
