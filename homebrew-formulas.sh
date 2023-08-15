@@ -24,9 +24,10 @@ zsh-completions
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
 
-# YTOP
-brew tap cjbassi/ytop
-brew install ytop
+# Bottom (formerly YTOP)
+#brew tap cjbassi/ytop
+#brew install ytop
+brew install bottom
 
 # BashTop
 python3 -m pip install psutil
