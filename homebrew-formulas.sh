@@ -17,7 +17,8 @@ lsd \
 openssl \
 tree \
 wget \
-zlib
+zlib \
+zsh-completions
 
 # Install fonts
 brew tap homebrew/cask-fonts
