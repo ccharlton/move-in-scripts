@@ -6,14 +6,14 @@ brew update
 # Install software via homebrew
 echo "Installing common software"
 brew install \
-curl \
+#curl \
 htop \
-git \
+#git \
 git-extras \
 git-flow \
 lazygit \
 lsd \
-python3 \
+#python3 \
 openssl \
 tree \
 wget \
@@ -44,8 +44,8 @@ siege
 # Old
 #gem install wraith
 
-# Composer
-composer global require hirak/prestissimo
+# Composer v1
+#composer global require hirak/prestissimo
 
 # VRT
 npm install -g backstopjs
