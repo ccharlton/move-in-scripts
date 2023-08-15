@@ -84,5 +84,5 @@ Host *
 
 4. Run the following to add the key to the OS keychain agent:
 ```
-ssh-add -K ~/.ssh/id_rsa
+ssh-add --apple-use-keychain ~/.ssh/id_rsa
 ```
