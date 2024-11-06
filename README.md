@@ -86,3 +86,6 @@ Host *
 ```
 ssh-add --apple-use-keychain ~/.ssh/id_rsa
 ```
+
+## Maintenance
+See this script: https://gist.github.com/ccharlton/e84c82f60a568163a4b5cb30f6cd514e
